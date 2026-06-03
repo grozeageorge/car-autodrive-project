@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1780411187",
+        "python_version": "3.10.12 (main, Jul 26 2023, 12:00:51) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\groze\\Documents\\git\\car-autodrive-project\\py\\env\\Scripts\\mlagents-learn config\\sac_config.yaml --run-id=Lidar_SAC_06_02__01",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.11.0+cu126",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1780411252"
+    },
+    "total": 64.95381390000694,
+    "count": 1,
+    "self": 0.007583200014778413,
+    "children": {
+        "run_training.setup": {
+            "total": 0.254739600000903,
+            "count": 1,
+            "self": 0.254739600000903
+        },
+        "TrainerController.start_learning": {
+            "total": 64.69149109999125,
+            "count": 1,
+            "self": 0.00021499997819773853,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 64.69124900001043,
+                    "count": 1,
+                    "self": 64.69124900001043
+                },
+                "TrainerController._save_models": {
+                    "total": 2.710000262595713e-05,
+                    "count": 1,
+                    "self": 2.710000262595713e-05
+                }
+            }
+        }
+    }
+}

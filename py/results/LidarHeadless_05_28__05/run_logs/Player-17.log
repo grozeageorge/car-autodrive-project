@@ -1,0 +1,123 @@
+Mono path[0] = 'C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/unity_Data/Managed'
+Mono config path = 'C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/MonoBleedingEdge/etc'
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\groze\Documents\git\car-autodrive-project\py;C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/unity_Data/Plugins\x86_64;C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/unity_Data/Plugins;C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'groze'
+OS-Version: 10.0.0
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\unity.exe:unity.exe (00007FF7EDB80000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.3.13.20241
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC68980000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC67510000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC65F80000), size: 4157440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\UnityPlayer.dll:UnityPlayer.dll (00007FFACAA50000), size: 37650432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.3.13.20241
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC675E0000), size: 1859584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC66430000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC68850000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC65E50000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC66380000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC66460000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC67F30000), size: 1667072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC67960000), size: 3682304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC66920000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC66A40000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFC65460000), size: 8830976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\advapi32.dll:advapi32.dll (00007FFC678A0000), size: 745472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC68880000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.8246
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC5DF40000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC66D50000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC66EA0000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC680D0000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC67330000), size: 888832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFC66800000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC65CD0000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBFC630000), size: 1110016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC5D2F0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC63AF0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC66AB0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC5DB20000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC637E0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC61900000), size: 2498560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFC35F80000), size: 4321280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.8457
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC62FC0000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFC652A0000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC63130000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC03CC0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFC65230000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC62F50000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFC651F0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC64100000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC653B0000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC62E70000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFC67410000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFBBFC70000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC582E0000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFC643A0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFBC013BFC5 (mono-2.0-bdwgc) mono_breakpoint_clean_code
+0x00007FFBBFFF1E8D (mono-2.0-bdwgc) mono_install_ftnptr_eh_callback
+0x00007FFBBFEF9496 (mono-2.0-bdwgc) mono_ee_api_version
+SymInit: Symbol-SearchPath: '.;C:\Users\groze\Documents\git\car-autodrive-project\py;C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/unity_Data/Plugins\x86_64;C:/Users/groze/Documents/git/car-autodrive-project/unity/LidarBuilds/unity_Data/Plugins;C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'groze'
+OS-Version: 10.0.0
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\unity.exe:unity.exe (00007FF7EDB80000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\unity.exe', fileVersion: 6000.3.13.20241
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC68980000), size: 2519040 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC67510000), size: 823296 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC65F80000), size: 4157440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.26100.8457
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\UnityPlayer.dll:UnityPlayer.dll (00007FFACAA50000), size: 37650432 (result: 0), SymType: '-exported-', PDB: 'C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\UnityPlayer.dll', fileVersion: 6000.3.13.20241
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC675E0000), size: 1859584 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC66430000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC68850000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC65E50000), size: 1228800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC66380000), size: 667648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC66460000), size: 1355776 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC67F30000), size: 1667072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC67960000), size: 3682304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC66920000), size: 1146880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC66A40000), size: 417792 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFC65460000), size: 8830976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\Windows.Storage.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\advapi32.dll:advapi32.dll (00007FFC678A0000), size: 745472 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\advapi32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC68880000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.26100.8246
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC5DF40000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC66D50000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC66EA0000), size: 4747264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC680D0000), size: 7790592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC67330000), size: 888832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFC66800000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC65CD0000), size: 1540096 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBFC630000), size: 1110016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC5D2F0000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC63AF0000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC66AB0000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC5DB20000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC637E0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC61900000), size: 2498560 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFC35F80000), size: 4321280 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL', fileVersion: 7.2.26100.8457
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC62FC0000), size: 1302528 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFC652A0000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC63130000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dwmapi.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC03CC0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFC65230000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\powrprof.dll', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC62F50000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFC651F0000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UMPDC.dll', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC64100000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC653B0000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC62E70000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFC67410000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.26100.8457
+C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFBBFC70000), size: 10756096 (result: 0), SymType: '-exported-', PDB: 'C:\Users\groze\Documents\git\car-autodrive-project\unity\LidarBuilds\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll'
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC582E0000), size: 2367488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFC643A0000), size: 299008 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SspiCli.dll', fileVersion: 10.0.26100.8328
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFACB1B3E34)
+0x00007FFACB1B3E34 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFACB255DD0)
+0x00007FFACB255DD0 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFACB25764A)
+0x00007FFACB25764A (UnityPlayer) (function-name not available)
+0x00007FFACB257F6B (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF7EDB811F6)
+0x00007FF7EDB811F6 (unity) (function-name not available)
+0x00007FFC6753E957 (KERNEL32) BaseThreadInitThunk
+0x00007FFC6898427C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/groze/AppData/Local/Temp/DefaultCompany/unity/Crashes

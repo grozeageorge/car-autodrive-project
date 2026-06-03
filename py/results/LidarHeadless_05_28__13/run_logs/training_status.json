@@ -1,0 +1,29 @@
+{
+    "LidarBehavior": {
+        "checkpoints": [
+            {
+                "steps": 395297,
+                "file_path": "results\\LidarHeadless_05_28__13\\LidarBehavior\\LidarBehavior-395297.onnx",
+                "reward": 1.6322596340726774,
+                "creation_time": 1780001306.3593588,
+                "auxillary_file_paths": [
+                    "results\\LidarHeadless_05_28__13\\LidarBehavior\\LidarBehavior-395297.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 395297,
+            "file_path": "results\\LidarHeadless_05_28__13\\LidarBehavior.onnx",
+            "reward": 1.6322596340726774,
+            "creation_time": 1780001306.3593588,
+            "auxillary_file_paths": [
+                "results\\LidarHeadless_05_28__13\\LidarBehavior\\LidarBehavior-395297.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu126"
+    }
+}

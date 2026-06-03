@@ -83,7 +83,7 @@ PlayerSettings:
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -525,7 +525,10 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -827,7 +830,24 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Standalone: SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY
+    Android: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    EmbeddedLinux: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    GameCoreScarlett: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    GameCoreXboxOne: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    Kepler: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    LinuxHeadlessSimulation: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    Nintendo Switch: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    Nintendo Switch 2: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    PS4: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    PS5: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    QNX: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    Standalone: SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY;BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    VisionOS: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    WebGL: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    Windows Store Apps: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    XboxOne: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    iPhone: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
+    tvOS: BCG_RCCP;BCG_RCCP_LITE;BCG_URP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

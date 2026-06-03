@@ -1,0 +1,89 @@
+======================================================================
+RESEARCH LEDGER: AUTONOMOUS VEHICLE RL TRAINING
+======================================================================
+
+PHASE 1: FOUNDATIONAL PHYSICS & INPUT HANDLING
+- Observation: When driving the car manually to test the environment, the vehicle handled "like it was on ice." Instantaneous steering inputs (-1 to 1) caused unnatural snapping, confusing the neural network.
+- Action: Implemented realistic vehicle physics dampening.
+    - Added a "steering speed" limit and realistic pedal acceleration to prevent instantaneous velocity spikes.
+    - Added a Low-Pass Filter (Mathf.Lerp) for steering to act as a real physical steering wheel with travel time.
+- Observation: Cars occasionally spawned inside the track geometry or too high, causing physics glitches.
+- Action: Fixed the procedural track generator's local spawn position (forcing Vector3.up * 0.1) to ensure clean ground contact.
+
+PHASE 2: OBSERVATION SPACE & NETWORK ARCHITECTURE
+- Observation: The agent lacked temporal awareness; it did not know if it was in the middle of a turn or recovering from one. 
+- Action: Scaled the neural network and optimized the observation space.
+    - Added a Stacked Vector Observation (Short-term memory of 3 frames). 
+    - E.g., Frame 1: Speed 0.2, Steer 0.0 -> Frame 2: Speed 0.21, Steer 0.2 -> Frame 3: Speed 0.25, Steer 0.5.
+    - Normalized all speed observations to be between 0 and 1 (matching the -1 to 1 steering scale) to stabilize the neural network's weights.
+    - Scaled the network architecture to handle the complex inputs: 3 Hidden Layers, 512 Hidden Units.
+- PPO Hyperparameter Definitions Established for Tuning:
+    - Batch: 2,048 steps (data collection phase).
+    - Buffer: 20,480 steps (accumulates batches, pauses the game to enter study phase).
+    - Epochs (3): The network trains on the buffer 3 times, updates the brain, deletes the buffer, and resumes.
+
+PHASE 3: ENVIRONMENT STABILIZATION & COLLISION DETECTION
+- Observation: Initial swarm training with 80 agents failed to converge. The high density caused continuous multi-car collisions, preventing agents from learning the track logic.
+- Action: Reduced agent count to 10. The environment immediately stabilized, yielding solid results after 1 hour of training.
+- Observation: Agents failed to register collisions with flat sidewalks and failed to reset properly.
+- Action: Discovered that Unity Wheel Colliders handle physics independently and bypass the main chassis 'OnCollisionEnter'. Implemented explicit 'GetGroundHit()' raycasting systematically checking all four tires for the "Sidewalk" tag. 
+
+PHASE 4: REWARD ECONOMY REBALANCING & EXPLOIT PATCHING
+- Observation (The Lazy AI): Agent got stuck in a "Local Minimum." It realized driving forward risked a wall penalty, while sitting still yielded minimal punishment.
+- Action: Un-smoothed the motor input to ensure instant acceleration out of the starting gate. Added a dynamic speed reward proportional to velocity.
+- Observation (Reward Farming): The dynamic reward created exploits. 
+    1. Agent learned to hold the wheel perfectly straight and creep forward for infinite micro-rewards without reaching checkpoints.
+    2. Agent realized crashing into a wall at 65 km/h yielded more positive speed points per second (+3.0 pts/sec) than the wall penalty took away.
+- Action: Reverted complex, contradictory penalties in favor of a strict, simplified economy:
+    - Increased wall crash penalty drastically (-2.0 -> -15.0).
+    - Implemented a "Ticking Clock" existential penalty (-0.001 per step) to force urgency and punish sitting on curbs.
+    - Nerfed speed rewards to a maximum of +0.002, ensuring checkpoint survival (+5.0) was the only mathematically viable path to a high score.
+
+PHASE 5: CONTINUOUS CONTROL OPTIMIZATION (THE WOBBLE)
+- Observation: Agents developed a high-frequency "micro-wobble" on straightaways, outputting noisy steering values to the wheels.
+- Attempt 1 (Hyperparameters): Lowered 'beta' (entropy/exploration rate) in the config to encourage less random wheel movement. Wobble lowered but remained noticeable.
+- Attempt 2 (Linear Deadzone): Applied a hard clamp in C# (if Abs(steerInput) < 0.05f then steerInput = 0f). 
+    - Result: Catastrophic failure. The deadzone blinded the agent to its own fine-motor corrections, resulting in severe over-correction, twitching, and pendulum-effect crashing.
+- Attempt 3 (Cubic Steering): Removed the deadzone. Mapped the raw AI output to a cubic curve: f(x) = x^3.
+    - Result: Success. The mathematical curve naturally flattened micro-noise near 0 (0.1^3 = 0.001) while retaining the exact geometric gradient needed for sharp cornering (0.9^3 = 0.729).
+
+PHASE 6: SCIENTIFIC TELEMETRY & METRIC RIGOR
+- Observation: Default ML-Agent metrics (Cumulative Reward) and initial attempts to track "Average Time" or "Average Speed" were scientifically insufficient due to procedural track variations. 
+- Action: Replaced arbitrary tracking with industry-standard autonomous metrics via Unity StatsRecorder:
+    1. Completion Percentage (Track progression).
+    2. Success Rate (Binary 1 or 0 for reaching the finish line).
+    3. Cross-Track Error / CTE (Deviation in meters from the mathematical ideal center-line).
+- Bug Encounters: 
+    - Asynchronous procedural track destruction caused "MissingReferenceException" and division-by-zero errors ("NaN"), which permanently corrupted the TensorBoard cache.
+    - Ghost objects scrambled array sorting, causing the Completion Percentage graph to flatline at 0 because the sequential tracker (index++) broke.
+- Final Architecture Fix: Replaced the fragile array index system with a highly robust 'HashSet<Transform>'. The logic now tracks unique visited checkpoints independently of Unity's hierarchy order, dynamically hunting the closest unvisited node. TensorBoard cache was bypassed by renaming metrics to 'Track_Data/'.
+
+
+======================================================================
+THE "GOOD MODELS" ARCHIVE (MILESTONE TRACKER)
+======================================================================
+
+1. THE EARLY BASELINES (Wobble & Deadzone Phase)
+- Run IDs: Lidar_05_30__07 and Lidar_05_31__02
+- Date: May 30 - May 31, 2026
+- Status: Functional but physically flawed.
+- Significance: These were the first models to consistently reach the finish line. However, they suffered from the straight-line "wobble" and were trained using a linear deadzone clamp, which caused unnatural twitching and overcorrection.
+
+2. THE MATHEMATICAL FIX (Cubic Steering & Economy Balance)
+- Run ID: Lidar_PPO_06_01__05
+- Date: June 1, 2026
+- Status: Excellent driving, broken telemetry.
+- Significance: Successfully implemented the f(x) = x^3 cubic steering curve, eliminating the straight-line wobble. Featured the massive -15.0 wall penalty, curing the "lazy AI" exploit. The driving was highly optimized, but TensorBoard data flatlined at 0 due to the Unity ghost-object array index bug.
+
+3. THE GOLDEN PPO BASELINE (The F1 Racer)
+- Run ID: Lidar_PPO_06_02__01
+- Date: June 2, 2026
+- Status: Flawless. The primary research benchmark.
+- Significance: The masterpiece PPO model. Utilized the robust HashSet tracking system, yielding perfect TensorBoard telemetry. Trained past 2 million steps, discovered the 100 km/h optimal racing line, and mathematically demonstrated emergent optimization via the increasing Cross-Track Error (CTE).
+
+4. THE OPTIMIZED SAC RUN (Configuration Phase)
+- Run ID: SAC_Optimized_01
+- Date: June 4, 2026
+- Status: Failed to converge (Understeering issue).
+- Significance: The first SAC model trained with corrected continuous-control hyperparameters (150 steps per update, 0.05 entropy) to prevent CPU stuttering. Revealed an architectural conflict between SAC's native action distribution and the C# cubic smoothing logic.
+

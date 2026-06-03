@@ -1,0 +1,56 @@
+{
+    "LidarBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499902,
+                "file_path": "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-499902.onnx",
+                "reward": -0.44178968481719494,
+                "creation_time": 1780314487.9563391,
+                "auxillary_file_paths": [
+                    "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-499902.pt"
+                ]
+            },
+            {
+                "steps": 999937,
+                "file_path": "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-999937.onnx",
+                "reward": -0.35071745538152754,
+                "creation_time": 1780315776.8463705,
+                "auxillary_file_paths": [
+                    "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-999937.pt"
+                ]
+            },
+            {
+                "steps": 1499991,
+                "file_path": "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-1499991.onnx",
+                "reward": null,
+                "creation_time": 1780316977.7655153,
+                "auxillary_file_paths": [
+                    "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-1499991.pt"
+                ]
+            },
+            {
+                "steps": 1784273,
+                "file_path": "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-1784273.onnx",
+                "reward": -0.5225621704947636,
+                "creation_time": 1780317654.0428445,
+                "auxillary_file_paths": [
+                    "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-1784273.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1784273,
+            "file_path": "results\\Lidar_PPO_06_01__01\\LidarBehavior.onnx",
+            "reward": -0.5225621704947636,
+            "creation_time": 1780317654.0428445,
+            "auxillary_file_paths": [
+                "results\\Lidar_PPO_06_01__01\\LidarBehavior\\LidarBehavior-1784273.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu126"
+    }
+}

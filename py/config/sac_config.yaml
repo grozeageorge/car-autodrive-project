@@ -1,0 +1,32 @@
+behaviors:
+  LidarBehavior: 
+    trainer_type: sac
+    hyperparameters:
+      learning_rate: 0.0003
+      learning_rate_schedule: constant
+      batch_size: 256
+      buffer_size: 500000
+      buffer_init_steps: 5000
+      tau: 0.005
+      
+      # FIX 1: Let the game run smoothly for 150 steps before updating the network
+      steps_per_update: 150.0
+      save_replay_buffer: false
+      
+      # FIX 2: Drastically lower the forced randomness so it stops acting drunk
+      init_entcoef: 0.05
+      
+      # FIX 3: Match the steps_per_update
+      reward_signal_steps_per_update: 150.0
+      
+    network_settings:
+      normalize: true
+      hidden_units: 256
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+    max_steps: 2500000
+    time_horizon: 128
+    summary_freq: 10000

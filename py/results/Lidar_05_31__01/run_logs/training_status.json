@@ -1,0 +1,65 @@
+{
+    "LidarBehavior": {
+        "checkpoints": [
+            {
+                "steps": 999914,
+                "file_path": "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-999914.onnx",
+                "reward": 2.3553718315171346,
+                "creation_time": 1780252635.4251761,
+                "auxillary_file_paths": [
+                    "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-999914.pt"
+                ]
+            },
+            {
+                "steps": 1499896,
+                "file_path": "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-1499896.onnx",
+                "reward": 26.080149964429438,
+                "creation_time": 1780253944.220789,
+                "auxillary_file_paths": [
+                    "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-1499896.pt"
+                ]
+            },
+            {
+                "steps": 1999889,
+                "file_path": "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-1999889.onnx",
+                "reward": 29.792518936097622,
+                "creation_time": 1780255244.960511,
+                "auxillary_file_paths": [
+                    "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-1999889.pt"
+                ]
+            },
+            {
+                "steps": 2499920,
+                "file_path": "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-2499920.onnx",
+                "reward": 24.464847897800308,
+                "creation_time": 1780256479.357412,
+                "auxillary_file_paths": [
+                    "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-2499920.pt"
+                ]
+            },
+            {
+                "steps": 2545196,
+                "file_path": "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-2545196.onnx",
+                "reward": 28.340022001548537,
+                "creation_time": 1780256613.3674767,
+                "auxillary_file_paths": [
+                    "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-2545196.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2545196,
+            "file_path": "results\\Lidar_05_31__01\\LidarBehavior.onnx",
+            "reward": 28.340022001548537,
+            "creation_time": 1780256613.3674767,
+            "auxillary_file_paths": [
+                "results\\Lidar_05_31__01\\LidarBehavior\\LidarBehavior-2545196.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu126"
+    }
+}

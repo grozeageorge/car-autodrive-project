@@ -1,0 +1,56 @@
+{
+    "LidarBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499965,
+                "file_path": "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-499965.onnx",
+                "reward": 15.963334526866674,
+                "creation_time": 1780090301.806832,
+                "auxillary_file_paths": [
+                    "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-499965.pt"
+                ]
+            },
+            {
+                "steps": 999914,
+                "file_path": "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-999914.onnx",
+                "reward": 39.932503044605255,
+                "creation_time": 1780091640.371045,
+                "auxillary_file_paths": [
+                    "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-999914.pt"
+                ]
+            },
+            {
+                "steps": 1499913,
+                "file_path": "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-1499913.onnx",
+                "reward": 38.56095571177347,
+                "creation_time": 1780092896.8209047,
+                "auxillary_file_paths": [
+                    "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-1499913.pt"
+                ]
+            },
+            {
+                "steps": 1515113,
+                "file_path": "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-1515113.onnx",
+                "reward": 46.770913037386805,
+                "creation_time": 1780092940.7412837,
+                "auxillary_file_paths": [
+                    "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-1515113.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1515113,
+            "file_path": "results\\LidarHeadless_05_29__03\\LidarBehavior.onnx",
+            "reward": 46.770913037386805,
+            "creation_time": 1780092940.7412837,
+            "auxillary_file_paths": [
+                "results\\LidarHeadless_05_29__03\\LidarBehavior\\LidarBehavior-1515113.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu126"
+    }
+}

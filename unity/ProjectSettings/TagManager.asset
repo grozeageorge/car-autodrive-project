@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Checkpoint
+  - FinishLine
+  - Sidewalk
   layers:
   - Default
   - TransparentFX
@@ -15,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - RCCP_Vehicle
+  - RCCP_WheelCollider
+  - RCCP_DetachablePart
+  - RCCP_Prop
+  - RCCP_Obstacle
   - 
   - 
   - 
